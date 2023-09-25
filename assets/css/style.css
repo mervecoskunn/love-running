@@ -1,3 +1,17 @@
+ 
+ /* Google fonts import*/
+  /* Oswald */
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100&display=swap');
+
+  /* Lato*/
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100&display=swap');
+
+
+
+
+
 /*Asterisk wildcard selector to override default styles added by the browser */
 *{
     padding: 0;
