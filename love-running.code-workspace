@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Desktop/favicon-zip"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "love-running"
+	}
+}
