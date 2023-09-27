@@ -38,10 +38,10 @@ h3 {
     color: #252525;
     
 }
-.hidden-heading {
+/* .hidden-heading {
     display: none;
 
-}
+} */
 
 
 header{
@@ -88,6 +88,7 @@ nav{
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top:100%;
     
 }
 /*nav toggle*/
@@ -159,7 +160,7 @@ main{
     margin: 5px 0;
 }
 #circle-cover-bg {
-    background: url(../images/reasons-image.webp) no-repeat top  center / cover;
+    background: url('../images/reasons-image.webp') no-repeat top  center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -175,20 +176,7 @@ main{
     justify-content: center;
 
 }
-
-/*Footer*/
-#social-networks{
-    text-align: center;
-    padding:20px 0;
-    display:flex;
-    justify-content:space-evenly;
-    list-style-type:none;
-}
-#social-networks i {
-    font-size:160%;
-    padding:5%;
-    color:#3a3a3a;
-}
+/* Meetups Times section */
 #times{
     background:url("../images/dublin-city.webp") no-repeat  center/cover;
     /* Handles responsibility without the need for a media query */
@@ -203,18 +191,28 @@ main{
     /*This will not wrap on screens of less than 400px wide. Each div will expand to fill the available space on its row. */
     flex-basis: 200px;
     flex-grow: 1;
-
-
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
 }
 #times h3{
     /* override the heading colour set in general styles */
     color: #fafafa;
-
 }
 
 
-
-
+/*Footer*/
+#social-networks{
+    text-align: center;
+    padding:20px 0;
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type:none;
+}
+#social-networks i {
+    font-size:160%;
+    padding:5%;
+    color:#3a3a3a;
+}
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width:768px) {
